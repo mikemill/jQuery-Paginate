@@ -1,0 +1,40 @@
+/* Setup everything to the basic pieces that we want */
+.pager-control, .pager-list, .pager-list li, .pager-page, .pager-scroll
+{
+	display: inline;
+}
+
+.pager-list
+{
+	margin: 0;
+	padding: 7px 0;
+	max-width: 500px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.pager-page
+{
+	margin: 2px;
+	padding: 5px;
+	color: #2e6ab1;
+	border: 1px solid #9aafe5;
+}
+
+.pager-scroll
+{
+	margin: 2px;
+	padding: 5px;
+}
+
+.pager-page-current, .pager-page:hover
+{
+	color: white;
+	background-color: #2e6ab1;
+	border-color: #2b66a5;
+}
+.pager-page:not(.pager-page-current), .pager-scroll
+{
+	cursor: pointer;
+}
+
