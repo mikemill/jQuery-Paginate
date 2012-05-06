@@ -5,4 +5,4 @@ Example usage:
 $('#sometable tbody').paginate();
 
 If using the tablesorter plugin add the following to update the rows when sorting
-$("#sometable").on('sortEnd', $('#sometable tbody').paginate.redraw);
+$("#sometable").on('sortEnd', function(){$('#sometable tbody').paginate('redraw'));
