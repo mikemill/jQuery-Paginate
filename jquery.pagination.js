@@ -144,6 +144,11 @@
 		{
 			var settings = $(this).data('settings');
 
+			if (typeof settings === 'undefined')
+			{
+				return;
+			}
+
 			settings.redraw.apply($(settings.pagerid)[0]);
 		},
 	};
