@@ -1,8 +1,0 @@
-This is intended to be a simple jQuery based pagination.
-
-Example usage:
-
-$('#sometable tbody').paginate();
-
-If using the tablesorter plugin add the following to update the rows when sorting
-$("#sometable").on('sortEnd', function(){$('#sometable tbody').paginate('redraw'));
